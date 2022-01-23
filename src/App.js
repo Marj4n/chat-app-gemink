@@ -1,11 +1,8 @@
 import React from "react";
-// Firebase deps
 import firebase from "firebase/app";
 import "firebase/auth";
 import "firebase/firestore";
-// Hooks
 import { useAuthState, useDarkMode } from "./hooks";
-// Components
 import Channel from "./components/Channel";
 import Loader from "./components/Loader";
 
